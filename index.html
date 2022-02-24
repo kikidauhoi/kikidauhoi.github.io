@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40-PS23708-Nguyễn Thanh Vinh - FPT Polytechnic</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo-modified.png" height="15%" width="8%">
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search..." name="search">
+              <button type="submit"><i class="fa">&#x1F50E;&#xFE0E;</i></button>
+            </form>
+        </div>
+        <img class="Login-icon" src="images/pngegg.png" height="6%" width="3%">
+    </header>
+    <nav>
+        <div class="navbar">
+            <a href="HOME.html" target="page">HOME</a>
+            <a href="ERA.html" target="page">ERA</a>
+            <a href="BATTLE.html" target="page">BATTLE</a>
+            <a href="VEHICLE.html" target="page">VEHICLE</a>
+            <a href="PLANET.html" target="page">PLANET</a>
+            <a href="CHARACTER.html" target="page">CHARACTER</a>
+        </div>
+    </nav>
+    <article>
+        <iframe src="home.html" name="page" scrolling="auto" frameborder="0"></iframe>
+    </article>
+
+
+    <button class="button button1" onclick="document.getElementById('id01').style.display='block'" style="width: auto;"><img class="Login-icon" src="images/pngegg.png" height="5%" width="3%"></button>
+    <div id="id01" class="modal">
+        <form class="modal-content animate">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="images/pngegg.png" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label for="uname" style="color: white;"><b>Username</b></label>
+                <input type="text" style="background-color: #8a8a8a; border: 1px solid #8a8a8a; color: white;" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw" style="color: white;">Password</b></label>
+                <input type="password" style="background-color: #8a8a8a; border: 1px solid #8a8a8a; color: white;" placeholder="Enter Password" name="psw" required>
+                    
+                <button type="submit" class="login">Log in</button>
+                <button type="button" class="login">Register</button>
+                <span class="psw" style="color: white;">Forgot <a href="#" style="color: white;">password?</a></span>
+            </div>
+        </form>
+    </div>
+</body>
+</div>
+</html>
